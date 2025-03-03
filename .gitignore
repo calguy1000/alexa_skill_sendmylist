@@ -1,0 +1,7 @@
+**/__pycache__/
+ask_config/cli_config
+ask_config/lambda
+aws_config/credentials
+app/.cache
+app/.bash_history
+app/.viminfo
