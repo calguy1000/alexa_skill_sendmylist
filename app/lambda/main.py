@@ -21,7 +21,7 @@ class LaunchRequestHandler(AbstractRequestHandler):
         return is_request_type("LaunchRequest")(handler_input)
 
     def handle(self, handler_input):
-        speech_text = "Welcome to your shopping list skill. You can ask me to send your shopping list via email."
+        speech_text = "Welcome to your shopping list skill. You can ask me to send your shopping list via email.  Local A1"
         return handler_input.response_builder.speak(speech_text).set_should_end_session(False).response
 
 class SendShoppingListIntentHandler(AbstractRequestHandler):
@@ -35,7 +35,7 @@ class SendShoppingListIntentHandler(AbstractRequestHandler):
 
         if not from_email or not aws_region:
             logger.error("Environment variables FROM_EMAIL and AWS_REGION must be set.")
-            speech_text = "There is a configuration error. Please check the environment variables."
+            speech_text = "There is a configuration error. Please check the environment variables. Local B1"
             return handler_input.response_builder.speak(speech_text).response
 
         # Get the shopping list from Alexa

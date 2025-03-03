@@ -3,8 +3,7 @@ A simple alexa skill written in python that will send the user's current shoppin
 
 This skill uses docker to contain the development environment, and configuration tools, and docker-compose for convenience.
 
-I wrote this skill purely as an exercise in using chatgpt and other AI tools to give me a start on development, to re-familiarize myself with Python, and to have a skill I would find useful for my home automation setup.
-
+I wrote this skill purely as an exercise in using chatgpt and other AI tools to give me a start on development, to re-familiarize myself with Python, and to have a skill I would find useful for my home automation setup.  If you get some help from it then I am happy.
 
 ### Prerequisites
 - docker

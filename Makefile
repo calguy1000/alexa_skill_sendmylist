@@ -16,7 +16,10 @@ deploy:
 dialog:
 	docker compose run -it --user worker alexa-skill-dev ask dialog --locale en-US
 
-clean:
+stop:
+    docker compose down
+
+clean: stop
 	docker compose down
 	_list=`docker ps -a | grep alexa-skill-dev | grep Exited | cut -d ' ' -f1`
 	if [ "$$_list" != "" ]; then docker rm $_list; fi

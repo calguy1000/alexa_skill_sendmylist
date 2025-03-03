@@ -1,7 +1,7 @@
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "send me my shopping list",
+            "invocationName": "my shopping list helper",
             "intents": [
                 {
                     "name": "AMAZON.CancelIntent",
@@ -23,7 +23,7 @@
                         "send me my shopping list",
                         "email my shopping list",
                         "email me my shopping list",
-			"send it"
+			            "send it"
                     ]
                 },
                 {
