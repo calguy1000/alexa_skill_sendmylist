@@ -17,7 +17,7 @@ dialog:
 	docker compose run -it --user worker alexa-skill-dev ask dialog --locale en-US
 
 stop:
-    docker compose down
+	docker compose down
 
 clean: stop
 	docker compose down

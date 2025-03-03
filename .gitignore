@@ -1,7 +1,15 @@
 **/__pycache__/
 ask_config/cli_config
 ask_config/lambda
+ask_config/auth_info
+ask_config/scripts/
 aws_config/credentials
 app/.cache
 app/.bash_history
 app/.viminfo
+app/.dotnet/
+app/.gitconfig
+app/.local/
+app/.vscode-server/
+app/.ask
+app/calguy1000-sendlist-skill/
